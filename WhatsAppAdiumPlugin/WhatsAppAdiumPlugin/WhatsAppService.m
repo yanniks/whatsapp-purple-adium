@@ -43,7 +43,11 @@
 }
 
 - (BOOL)requiresPassword {
-    return true;
+    return YES;
+}
+
+- (BOOL)supportsProxySettings {
+    return NO;
 }
 
 - (AIServiceImportance)serviceImportance {
@@ -55,7 +59,7 @@
 }
 
 - (NSURL *)serviceAccountSetupURL {
-    return NSURL(@"https://github.com/tgalal/yowsup/wiki/yowsup-cli#Registration", "");
+    return [NSURL URLWithString:@"https://github.com/tgalal/yowsup/wiki/yowsup-cli#wiki-registration"];
 }
 
 - (void)registerStatuses {
