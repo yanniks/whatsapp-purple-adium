@@ -19,3 +19,6 @@ c3.whatsapp.net
 Remeber it's a dev preview. The value will soon be prefilled.
 Until then use:
 443
+
+### How do I get my user name and password?
+Read here: https://github.com/davidgfnet/whatsapp-purple/
