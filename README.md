@@ -5,7 +5,7 @@ A Adium Plugin (libpurple) for the WhatsApp protocol based on https://github.com
 
 Status
 ----------
-20140104 Developer preview: Currently it only works with Adium Version 1.7
+20140104 Developer preview: Currently it only works with Adium Version 1.6hg and 1.7hg
 We're working on a 1.5 - 1.7 release.
 
 FAQ
