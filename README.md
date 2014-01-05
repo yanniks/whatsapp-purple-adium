@@ -11,13 +11,11 @@ We're working on a 1.5 - 1.7 release.
 FAQ
 ---
 ### What is the Server?
-Remeber it's a dev preview. The value will soon be prefilled.
-Until then use:
+The default WhatsApp server which is preconfigured in the plugin is:
 c3.whatsapp.net
 
 ### What is the Port?
-Remeber it's a dev preview. The value will soon be prefilled.
-Until then use:
+The default WhatsApp server port which is preconfigured in the plugin is:
 443
 
 ### How do I get my user name and password?
