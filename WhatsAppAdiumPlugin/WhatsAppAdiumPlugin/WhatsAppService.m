@@ -55,8 +55,14 @@
 }
 
 - (NSString *)userNameLabel {
-    return AILocalizedString(@"Phone Number (e.g. 49150123456)", nil); // Sign-in name
+    return AILocalizedString(@"Phone Number", nil); // Sign-in name
 }
+
+- (NSString *)UIDPlaceholder
+{
+    return @"e.g. 49150123456";
+}
+
 
 - (NSURL *)serviceAccountSetupURL {
     return [NSURL URLWithString:@"https://github.com/tgalal/yowsup/wiki/yowsup-cli#wiki-registration"];
