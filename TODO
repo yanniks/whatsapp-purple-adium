@@ -1,2 +1,6 @@
 - Ensure that the Plugin works with Adium 1.5.x
+
+
 - Track down why open conversations do not get displayed
+if I start pidgin it creates two requests, c3.whatsapp.ch and sro.whatsapp.ch
+the sro-request never happens on our version.
