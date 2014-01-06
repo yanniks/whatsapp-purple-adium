@@ -14,8 +14,6 @@
 		855CCBFC1875BC2B009ED59C /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCBFB1875BC2B009ED59C /* Adium.framework */; };
 		855CCBFF1875BC46009ED59C /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCBFE1875BC46009ED59C /* AdiumLibpurple.framework */; };
 		855CCC011875BC5B009ED59C /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC001875BC5B009ED59C /* AIUtilities.framework */; };
-		855CCC0A1875BC98009ED59C /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC021875BC98009ED59C /* FriBidi.framework */; };
-		855CCC0B1875BC98009ED59C /* libglib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC031875BC98009ED59C /* libglib.framework */; };
 		855CCC0C1875BC98009ED59C /* libgmodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC041875BC98009ED59C /* libgmodule.framework */; };
 		855CCC0D1875BC98009ED59C /* libgobject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC051875BC98009ED59C /* libgobject.framework */; };
 		855CCC0E1875BC98009ED59C /* libgthread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC061875BC98009ED59C /* libgthread.framework */; };
@@ -24,6 +22,7 @@
 		855CCC111875BC98009ED59C /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 855CCC091875BC98009ED59C /* libpurple.framework */; };
 		855CCC191875C238009ED59C /* wa_api.cc in Sources */ = {isa = PBXBuildFile; fileRef = 855CCC121875C238009ED59C /* wa_api.cc */; };
 		855CCC1A1875C238009ED59C /* whatsapp-protocol.cc in Sources */ = {isa = PBXBuildFile; fileRef = 855CCC141875C238009ED59C /* whatsapp-protocol.cc */; };
+		8571FBC71879F0AB00794BFE /* libglib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8571FBC61879F0AB00794BFE /* libglib.framework */; };
 		85E053191876E00D00ECC64E /* PurpleWhatsAppAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E053141876E00D00ECC64E /* PurpleWhatsAppAccount.m */; };
 		85E0531A1876E00D00ECC64E /* whatsapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E053151876E00D00ECC64E /* whatsapp.png */; };
 		85E0531B1876E00D00ECC64E /* whatsapp16.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E053161876E00D00ECC64E /* whatsapp16.png */; };
@@ -44,9 +43,7 @@
 		855CCBF81875BBB1009ED59C /* wa_purple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wa_purple.c; path = "../libs/whatsapp-purple/wa_purple.c"; sourceTree = "<group>"; };
 		855CCBFB1875BC2B009ED59C /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = "/Users/niklas/Library/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug/Adium.framework"; sourceTree = "<absolute>"; };
 		855CCBFE1875BC46009ED59C /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdiumLibpurple.framework; path = "../../../../Users/niklas/Library/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug/AdiumLibpurple.framework"; sourceTree = "<group>"; };
-		855CCC001875BC5B009ED59C /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = "../../../../Users/niklas/Library/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug/AIUtilities.framework"; sourceTree = "<group>"; };
-		855CCC021875BC98009ED59C /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FriBidi.framework; path = ../../adium/Frameworks/FriBidi.framework; sourceTree = "<group>"; };
-		855CCC031875BC98009ED59C /* libglib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libglib.framework; path = ../../adium/Frameworks/libglib.framework; sourceTree = "<group>"; };
+		855CCC001875BC5B009ED59C /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = "../../../../Users/niklas/Library/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug/AIUtilities.framework"; sourceTree = SOURCE_ROOT; };
 		855CCC041875BC98009ED59C /* libgmodule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgmodule.framework; path = ../../adium/Frameworks/libgmodule.framework; sourceTree = "<group>"; };
 		855CCC051875BC98009ED59C /* libgobject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgobject.framework; path = ../../adium/Frameworks/libgobject.framework; sourceTree = "<group>"; };
 		855CCC061875BC98009ED59C /* libgthread.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgthread.framework; path = ../../adium/Frameworks/libgthread.framework; sourceTree = "<group>"; };
@@ -56,6 +53,7 @@
 		855CCC121875C238009ED59C /* wa_api.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wa_api.cc; path = "../libs/whatsapp-purple/wa_api.cc"; sourceTree = "<group>"; };
 		855CCC131875C238009ED59C /* wa_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wa_api.h; path = "../libs/whatsapp-purple/wa_api.h"; sourceTree = "<group>"; };
 		855CCC141875C238009ED59C /* whatsapp-protocol.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "whatsapp-protocol.cc"; path = "../libs/whatsapp-purple/whatsapp-protocol.cc"; sourceTree = "<group>"; };
+		8571FBC61879F0AB00794BFE /* libglib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libglib.framework; path = ../../adium/Frameworks/libglib.framework; sourceTree = "<group>"; };
 		85E053131876E00D00ECC64E /* PurpleWhatsAppAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PurpleWhatsAppAccount.h; path = WhatsAppAdiumPlugin/PurpleWhatsAppAccount.h; sourceTree = "<group>"; };
 		85E053141876E00D00ECC64E /* PurpleWhatsAppAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PurpleWhatsAppAccount.m; path = WhatsAppAdiumPlugin/PurpleWhatsAppAccount.m; sourceTree = "<group>"; };
 		85E053151876E00D00ECC64E /* whatsapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whatsapp.png; path = WhatsAppAdiumPlugin/whatsapp.png; sourceTree = "<group>"; };
@@ -71,14 +69,13 @@
 			files = (
 				855CCBFF1875BC46009ED59C /* AdiumLibpurple.framework in Frameworks */,
 				855CCC0F1875BC98009ED59C /* libintl.framework in Frameworks */,
+				8571FBC71879F0AB00794BFE /* libglib.framework in Frameworks */,
 				855CCC111875BC98009ED59C /* libpurple.framework in Frameworks */,
 				855CCBE41875B86E009ED59C /* Cocoa.framework in Frameworks */,
-				855CCC0B1875BC98009ED59C /* libglib.framework in Frameworks */,
 				855CCBFC1875BC2B009ED59C /* Adium.framework in Frameworks */,
 				855CCC0E1875BC98009ED59C /* libgthread.framework in Frameworks */,
 				855CCC0C1875BC98009ED59C /* libgmodule.framework in Frameworks */,
 				855CCC0D1875BC98009ED59C /* libgobject.framework in Frameworks */,
-				855CCC0A1875BC98009ED59C /* FriBidi.framework in Frameworks */,
 				855CCC101875BC98009ED59C /* libmeanwhile.framework in Frameworks */,
 				855CCC011875BC5B009ED59C /* AIUtilities.framework in Frameworks */,
 			);
@@ -158,8 +155,7 @@
 		855CCBFD1875BC31009ED59C /* Adium */ = {
 			isa = PBXGroup;
 			children = (
-				855CCC021875BC98009ED59C /* FriBidi.framework */,
-				855CCC031875BC98009ED59C /* libglib.framework */,
+				8571FBC61879F0AB00794BFE /* libglib.framework */,
 				855CCC041875BC98009ED59C /* libgmodule.framework */,
 				855CCC051875BC98009ED59C /* libgobject.framework */,
 				855CCC061875BC98009ED59C /* libgthread.framework */,
@@ -263,6 +259,7 @@
 		855CCBF01875B86E009ED59C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADIUM_SRC_PATH = /Volumes/Workspace/adium;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -300,6 +297,7 @@
 		855CCBF11875B86E009ED59C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADIUM_SRC_PATH = /Volumes/Workspace/adium;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -337,17 +335,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug",
+					"$(ADIUM_SRC_PATH)/Frameworks/**",
+					"$(ADIUM_SRC_PATH)/build/Debug/**",
 					/Volumes/Workspace/adium/Frameworks,
-					/Volumes/Workspace/adium/build/Debug,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatsAppAdiumPlugin/WhatsAppAdiumPlugin-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Volumes/Workspace/adium/Frameworks/libpurple.framework/Headers,
-					/Volumes/Workspace/adium/Frameworks/libglib.framework/Headers/glib,
-					/Volumes/Workspace/adium/Frameworks/libglib.framework/Headers,
+					"$(ADIUM_SRC_PATH)/Frameworks/libpurple.framework/Headers",
+					"$(ADIUM_SRC_PATH)/Frameworks/libglib.framework/Headers/glib",
+					"$(ADIUM_SRC_PATH)/Frameworks/libglib.framework/Headers",
 				);
 				INFOPLIST_FILE = "WhatsAppAdiumPlugin/WhatsAppAdiumPlugin-Info.plist";
 				INSTALL_PATH = "\"$(HOME)/Library/Application Support/Adium 2.0/PlugIns/\"";
@@ -366,17 +365,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Adium-gshvxnnlbsthtmbpabbsunbnkggy/Build/Products/Debug",
+					"$(ADIUM_SRC_PATH)/Frameworks/**",
+					"$(ADIUM_SRC_PATH)/build/Debug/**",
 					/Volumes/Workspace/adium/Frameworks,
-					/Volumes/Workspace/adium/build/Debug,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhatsAppAdiumPlugin/WhatsAppAdiumPlugin-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Volumes/Workspace/adium/Frameworks/libpurple.framework/Headers,
-					/Volumes/Workspace/adium/Frameworks/libglib.framework/Headers/glib,
-					/Volumes/Workspace/adium/Frameworks/libglib.framework/Headers,
+					"$(ADIUM_SRC_PATH)/Frameworks/libpurple.framework/Headers",
+					"$(ADIUM_SRC_PATH)/Frameworks/libglib.framework/Headers/glib",
+					"$(ADIUM_SRC_PATH)/Frameworks/libglib.framework/Headers",
 				);
 				INFOPLIST_FILE = "WhatsAppAdiumPlugin/WhatsAppAdiumPlugin-Info.plist";
 				INSTALL_PATH = "\"$(HOME)/Library/Application Support/Adium 2.0/PlugIns/\"";
